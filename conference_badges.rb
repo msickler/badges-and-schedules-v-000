@@ -17,6 +17,6 @@ end
 end
 
 def printer
-  puts messages 
+  puts messages
   puts room_assignments
 end
