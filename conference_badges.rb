@@ -16,11 +16,11 @@ end
   return room_assignments
 end
 
-def printer(attendees)
-  messages = batch_badge_creator(attendees)
-rooms = assign_rooms(attendees)
-messages.each {|message|}
-rooms.each {|room|}
-puts message
-puts room
-end
+def printer (attendees)
+   batch_badge_creator(attendees).each do |i|
+     puts i
+   end
+   assign_rooms(attendees).each do |i|
+     puts i
+   end
+ end
