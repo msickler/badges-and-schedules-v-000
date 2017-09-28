@@ -5,5 +5,5 @@ end
 
 def batch_badge_creator(attendees)
 messages = attendees.collect {|name| "Hello, my name is #{name}."}
-return messages 
+return messages
 end
