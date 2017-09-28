@@ -21,6 +21,6 @@ def printer(attendees)
 rooms = assign_rooms(attendees)
 messages.each {|message|}
 rooms.each {|room|}
-puts messages
-puts rooms
+puts message
+puts room
 end
